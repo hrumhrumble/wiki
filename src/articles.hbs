@@ -1,0 +1,9 @@
+{{#if articles}}
+    {{#each articles}}
+        <a class="article" target="_blank" href="https://en.wikipedia.org/?curid={{pageid}}">
+            <span class="article__title">{{title}}</span>
+            <span class="article__snippet">{{{snippet}}}</span>
+        </a>
+    {{/each}}
+{{/if}}
+
